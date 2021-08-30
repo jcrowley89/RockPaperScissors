@@ -62,6 +62,9 @@ namespace RockPaperScissors
                     || playerChoice == "s" && computerChoice == "paper")
                 {
                     Console.WriteLine($"\n{computerChoice.ToUpper()}! You win!\n");
+                } else
+                {
+                    Console.WriteLine("C'mon, man!!");
                 }
             }
 
